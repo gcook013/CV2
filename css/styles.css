@@ -1,5 +1,6 @@
 a {
   color: #6a8caf;
+  font-family: "Raleway", sans-serif;
 }
 
 body {
@@ -42,7 +43,7 @@ hr {
   border-top: 7px dotted;
   margin: 100px auto;
   color: #dde7df;
-  width: 80px;
+  width: 4%;
 }
 
 p {
@@ -63,14 +64,29 @@ p {
 }
 
 .contact-me {
-  width: 50%;
+  width: 40%;
   margin: 50px auto 30px;
   line-height: 1.5;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding-top: 20px;
 }
 
 .footer-link {
   margin: 50px;
   color: #a7e9af;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
+}
+
+.icon-attribution {
+  font-size: 0.6rem;
 }
 
 .middle-container {
@@ -78,7 +94,7 @@ p {
 
 .profile {
   margin: 100px auto;
-  width: 50%;
+  width: 40%;
   line-height: 1.5;
 }
 
@@ -153,7 +169,7 @@ p {
   text-indent: 0px;
   display: inline-block;
   color: #ffffff;
-  font-family: Trebuchet MS;
+  font-family: "Raleway", sans-serif;
   font-size: 19px;
   font-weight: bold;
   font-style: normal;
